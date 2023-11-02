@@ -36,6 +36,9 @@ html, body{
     align-items: center;
     gap: 10px;
 }
+#ptop #score{
+    width: 50px;
+}
 .box{
     width: 45px;
     height: 25px;
