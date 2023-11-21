@@ -17,7 +17,7 @@ function runTime(){
         }
         else{
             clearInterval(timeint);
-            document.querySelector("#pbtm").innerHTML = `<h1>Your score was ${score}</h1> <br> <a href="index.html">Play Again</a>`;
+            document.querySelector("#pbtm").innerHTML = `<h1>Your score was ${score}</h1> <br> <a href="main.html">Play Again</a>`;
         }
     }, 1000)
 }
