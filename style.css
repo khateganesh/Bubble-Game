@@ -36,6 +36,9 @@ html, body{
     align-items: center;
     gap: 10px;
 }
+.elem h2{
+    text-size: 1vw;
+}
 #ptop #score{
     width: 50px;
 }
