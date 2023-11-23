@@ -1,4 +1,4 @@
-*{
+ho*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -85,3 +85,37 @@ html, body{
     background-color: rgb(134, 207, 134);
     cursor: pointer;
 }
+
+@media only screen and (max-width: 768px) {
+    #ptop {
+        flex-direction: column;
+        height: auto;
+    }
+    .elem {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+    #ptop #score {
+        width: auto;
+    }
+    .box {
+        width: 30px;
+        height: 20px;
+        font-size: 12px;
+    }
+    #pbtm {
+        height: auto;
+        padding: 5px;
+    }
+    #pbtm a {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+    .bubble {
+        width: 25px;
+        height: 25px;
+        font-size: 12px;
+    }
+}
+
