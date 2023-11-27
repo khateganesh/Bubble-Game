@@ -88,3 +88,34 @@ html, body{
     background-color: rgb(134, 207, 134);
     cursor: pointer;
 }
+@media screen and (max-width: 768px) {
+    #panel {
+        width: 95%;
+        height: 95%;
+    }
+
+    #ptop {
+        height: auto;
+    }
+
+    .elem {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 8px;
+    }
+
+    #pbtm {
+        padding: 5px;
+    }
+
+    #pbtm a {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    .bubble {
+        width: 25px;
+        height: 25px;
+        font-size: 12px;
+    }
+}
