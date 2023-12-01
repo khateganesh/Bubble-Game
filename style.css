@@ -89,6 +89,10 @@ html, body{
     cursor: pointer;
 }
 @media screen and (max-width: 768px) {
+    #box{
+        height:100dvh;
+    }
+    
     #panel {
         width: 95%;
         height: 95%;
