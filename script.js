@@ -3,7 +3,7 @@ var score = 0;
 var Hitrn = 0;
 function makeBubble(){
     var clutter = "";
-    for(var i = 0; i <= 159; i++){
+    for(var i = 0; i <= 169; i++){
         var num = Math.floor(Math.random()*10);
         clutter += `<div class="bubble">${num}</div>`;
         document.querySelector("#pbtm").innerHTML = clutter;
